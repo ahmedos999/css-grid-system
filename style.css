@@ -5,7 +5,7 @@ body{
 }
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     /* align-items: center; */
 }
 .grid-container > div,.grid-container>header{
@@ -15,9 +15,11 @@ body{
 .grid-container>header{
     border: 1px solid #000;
 }
-.grid-container>.main-items{
+/* .grid-container>.main-items{
     text-align: center;
    
+} */img{
+    width: 100%;
 }
 header{
     grid-column: span 3;
